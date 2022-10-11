@@ -1,0 +1,29 @@
+.bodyPartCard{
+    display: flex;
+    background-color: #F2E9E4;
+    cursor: pointer;
+    align-items: center;
+    margin: 20px;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
+    transition-duration: 0.3s;
+    
+}
+
+.bodyPartCard:hover{
+    border-bottom: 4px solid #6B8F71;
+
+
+}
+.bodyPartCardSelected{
+    border-bottom: 4px solid #6B8F71;
+    
+}
+.card-text{
+    color: #454851;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}

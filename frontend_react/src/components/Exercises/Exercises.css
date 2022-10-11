@@ -1,0 +1,28 @@
+.exercises-section{
+    padding: 20px;
+    
+}
+
+
+.exercises{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+
+}
+.MuiPagination-root button{
+    color: #F2E9E4 !important;
+  }
+
+@media screen and (min-width:800px){
+
+    .exercises-section{
+        margin-top: 40px;
+    }
+    .exercises{
+        gap: 75px;
+    }
+
+}

@@ -1,0 +1,48 @@
+
+.exerciseCard{
+    display: flex;
+    flex-direction: column;
+    overflow-wrap:break-word;
+    width: 250px;
+    
+    background-color: #FCFCFC;
+    padding: 20px;
+
+    border-radius: 20px;
+    box-shadow: 0 2px 3px 0 rgba(255, 255, 255, 0.3);
+    
+    
+
+}
+.exerciseCard img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+p{
+    color: #454851;
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-size: 18px;
+    
+}
+
+.exercise-bodyparts{
+    display: flex;
+    
+    
+}
+.bodypart-tag{
+    
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color:#FCFCFC;
+    background-color:#6B8F71;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.target-tag{
+    background-color:#84732B;
+}

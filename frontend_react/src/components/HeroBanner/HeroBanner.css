@@ -1,0 +1,68 @@
+.heroBanner{
+    
+    position: relative;
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 20px;
+    
+    
+}
+
+.heroBanner p:first-of-type{
+    color: #EE6C4D;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+h1{
+    color: #F2E9E4;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin: 25px 0;
+    font-size: 40px;
+}
+
+.bg-text{
+    font-weight: 600;
+    color: #EE6C4D;
+    opacity: 0.05;
+    display: none;
+    font-size: 200px;
+    margin-top: 75px;
+}
+.hero-banner-img{
+    position: absolute;
+    width: 500px;
+    right: 40px;
+    top: 0;
+    margin-top: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#exercises{
+    position: absolute;
+    top: 1000px;
+}
+
+@media screen and (min-width:800px){
+
+    .bg-text{
+        display: block;
+        
+    }
+
+}
+@media screen and (max-width:900px){
+    
+
+}
+@media screen and (max-width:900px){
+    .hero-banner-img{
+        
+        display: none;
+        
+    }
+    
+
+}
+

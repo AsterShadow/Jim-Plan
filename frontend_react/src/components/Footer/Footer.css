@@ -1,0 +1,23 @@
+.footer-section{
+    margin-top: 60px;
+    background-color: #FCFCFC;
+    
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+.footer-items img{
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+    margin-top: 40px;
+    background-color: #6B8F71;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+}

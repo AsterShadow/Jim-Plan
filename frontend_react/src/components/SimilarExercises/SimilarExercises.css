@@ -1,0 +1,11 @@
+.similar-section{
+    padding: 40px;
+
+}
+.similar-exercises{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 20px;
+
+}
