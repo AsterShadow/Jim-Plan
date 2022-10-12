@@ -1,9 +1,10 @@
 export const exerciseOptions = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '6e43dffb04msh1b2056a1251f211p12a5acjsn314a337dbc29',
       'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
-    }
+      'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
+      
+    },
   };
 
 
@@ -13,4 +14,4 @@ export const fetchData = async(url,options)=>{
 
     return data;
 
-}
+};
